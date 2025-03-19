@@ -19,14 +19,14 @@
     <p>Form to apply for jobs goes here.</p>
     <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
         <label for="job_ref">Job reference number: </label>
-        <input type="text" name="job_ref" id="job_ref"><br>
+        <input type="text" name="job_ref" id="job_ref" maxlength="5" minlength="5" pattern="[A-Za-z0-9]{5}" required><br>
 
         <label for="first_name">First name</label>
-        <input type="text" name="first_name" id="first_name">
+        <input type="text" name="first_name" id="first_name" pattern="[A-Za-z0-9]{5}" minlength="0" maxlength="20" required>
 
 
         <label for="last_name">Last name</label>
-        <input type="text" name="last_name" id="last_name"><br>
+        <input type="text" name="last_name" id="last_name" pattern="[A-Za-z0-9]{5}" minlength="0" maxlength="20" required><br>
 
         <label for="birth">Date of Birth</label>
         <input type="date" name="birth" id="birth">
@@ -44,10 +44,10 @@
         </fieldset><br>
 
         <label for="street_address">Street Address</label>
-        <input type="text" name="street_address" id="street_address">
+        <input type="text" name="street_address" id="street_address" maxlength="20">
 
         <label for="suburb">Suburb/Town</label>
-        <input type="text" name="suburb" id="suburb"><br>
+        <input type="text" name="suburb" id="suburb" maxlength="20"><br>
 
         <label for="state">State</label>
         <select name="state" id="state">
@@ -95,7 +95,7 @@
               
         </fieldset>
 
-
+        <button type="submit">Apply</button>
         
 
     </form>
