@@ -1,47 +1,67 @@
 
-/*font whole web*/
-* {font-family: calabri, sans-serif;}
-* {background-color: #d0d6da;}
-/*menu css no need change*/
-body, html {margin: 0; padding: 0;}
+/* Main */
 
-nav {background-color: #344955; 
-    text-align: center; 
-    width: auto; 
-    height: 50px; 
-    padding: 10px 0;
+* {background-color: rgb(52, 115, 154);}
+
+/* Navigation Bar*/
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
     display: flex;
-    align-items: right;
-    justify-content: right;
-}
-nav a {font-size: 20px; 
-    background-color:#344955; 
-    color: #f9aa33; 
-    margin: 0 8px; 
-    text-decoration: none; 
-    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
 
- }
-nav a:hover{background-color: #232f34;
-    border-radius: 1px;
-}
-nav a:active{color: #976924 !important;
-}
-
-
-/* all h1 and h2 use this color*/
-h1,h2 {color:#232f34;}
-
-
-/* about css page*/
-#head {font-size: 48px;}
-#head {text-align: center;}
-#heads {text-align: center;}
-
-
-
-
- 
-
-
-
+  }
+  
+  .logo {
+    cursor: pointer;
+    font-size: 35px; font-weight: 600; color: aliceblue; background-color: #24252a;
+  }
+  
+  .nav__links a, .cta, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color: #24252a;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+    
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+    background-color: #24252a;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
+  .cta {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
