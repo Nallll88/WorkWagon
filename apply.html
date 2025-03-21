@@ -26,9 +26,16 @@
     <h1>Job Application</h1>
     <p>Form to apply for jobs goes here.</p>
 
+    <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
+
+    <fieldset> 
+        <label for="job_ref">Job reference number: </label>
+
+
     <form action="https://mercury.swin.edu.au/it000000/formtest.php" id="ApplyForm" method="post"><br>
 
         <label class="input-box" for="job_ref">Job reference number: </label>
+
         <input type="text" name="job_ref" id="job_ref" maxlength="5" minlength="5" pattern="[A-Za-z0-9]{5}" required><br>
 
         <label class="input-box" for="first_name">First name</label>
@@ -107,6 +114,11 @@
         </fieldset>
 
         <button type="submit">Apply</button>
+
+        
+    </fieldset>
+
+
     </form>
 </body>
 </html>
