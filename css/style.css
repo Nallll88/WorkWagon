@@ -74,3 +74,125 @@
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+/* Form Style*/
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+fieldset {
+  margin: 2em 0;
+  padding: 1 em 2 em;
+  border: solid 1 px #ccc;
+  border-radius: 6px;
+  min-width: 200px;
+  
+
+}
+
+legend {
+  font-size: 1.25em;
+  padding: 0 .25em;
+  color: black; 
+  
+}
+
+/*label*/
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+.checks label {
+  margin-top: 0;
+}
+
+label:first-of-type{
+  margin-top: 0;
+}
+
+/*input*/
+
+input {
+  padding: .5em;
+  border: solid 1px black;
+
+}
+
+input[type="email"], input[type="text"]{
+  width: 15em;
+}
+
+textarea{
+  min-height: 8em;
+  min-width: 100%;
+  padding: .5em;
+  border: solid 1px black;
+}
+
+/**/
+
+.checks {
+  margin-bottom: 1em;
+}
+
+.checks p {
+  margin-bottom: 0;
+}
+
+input[type="checkbox"] + label , input[type="radio"] + label {
+  display: inline-block;
+  padding-top: 0;
+  margin-top: 0;
+  
+}
+
+input[type="radio"]{
+  margin-left: 1.5em;
+  margin-right: 0;
+}
+
+input[type="radio"]:first-of-type{
+  margin-left: 0;
+}
+
+
+
+input[type="submit"]{
+  
+ 
+  padding: .5em 1em;
+  border-radius: 100px ;
+  background-color: aqua;
+  color: #fff;
+  
+}
+
+
+
+.fieldchange {
+  margin-left: 0;
+  
+}
+
+@media screen and (min-width: 430px){
+  legend {
+    font-size: 1.75em; 
+  }
+}
+
+fieldset {
+  width: 50%;
+  min-width: 320px;
+  margin: auto;
+  border-color: rgb(52, 115, 154);
+  
+  
+}
+
+.checks label {
+  display: inline-block;
+  padding-top: .5em;
+  margin-top: 0;
+  margin-right: .5em;
+
+}

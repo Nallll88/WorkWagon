@@ -15,35 +15,37 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="jobs.html">Jobs</a></li>
-                <li><a href="apply.html">Apply</a></li>
+                
                 <li><a href="enhancements.html">Enhancements</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#">Contact</a>
+        <a class="cta" href="apply.html">Apply</a>
     </header>
 
     
     <h1>Job Application</h1>
     <p>Form to apply for jobs goes here.</p>
 
-    <form action="https://mercury.swin.edu.au/it000000/formtest.php" id="ApplyForm" method="post"><br>
+    <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
 
-        <label class="input-box" for="job_ref">Job reference number: </label>
-        <input type="text" name="job_ref" id="job_ref" maxlength="5" minlength="5" pattern="[A-Za-z0-9]{5}" required><br>
+    <fieldset>
+        <legend>Start Here</legend><br>
 
-        <label class="input-box" for="first_name">First name</label>
+        <label for="job_ref">Job reference number: </label>
+        <input type="text" name="job_ref" id="job_ref" maxlength="5" minlength="5" pattern="[A-Za-z0-9]{5}" required>
+
+        <label for="first_name">First name</label>
         <input type="text" name="first_name" id="first_name" pattern="[A-Za-z0-9]{5}" minlength="0" maxlength="20" required>
 
-
-        <label class="input-box" for="last_name">Last name</label>
-        <input type="text" name="last_name" id="last_name" pattern="[A-Za-z0-9]{5}" minlength="0" maxlength="20" required><br>
-
-        <label class="input-box" for="birth">Date of Birth</label>
-        <input type="date" name="birth" id="birth"> <br><br>
-
+        <label for="last_name">Last name</label>
+        <input type="text" name="last_name" id="last_name" pattern="[A-Za-z0-9]{5}" minlength="0" maxlength="20" required>
         
-        <fieldset>
-            <legend>Please select your gender</legend>
+        <label for="birth">Date of Birth</label>
+        <input type="date" name="birth" id="birth">
+
+        <div class="checks">
+        <fieldset class="fieldchange">
+            <legend>Gender</legend>
             <input type="radio" id = "male" name="gender_picked" value="male">
             <label for="male">Male</label>
 
@@ -52,10 +54,13 @@
 
             <input type="radio" id = "others" name="gender_picked" value="others">
             <label for="others">others</label>
-        </fieldset><br>
-
+        </fieldset>
+        </div>
+        <div class="checks">
+        <fieldset class="fieldchange">
+        <legend>Location</legend>
         <label for="street_address">Street Address</label>
-        <input type="text" name="street_address" id="street_address" maxlength="20">
+        <input type="text" name="street_address" id="street_address" maxlength="20"><br>
 
         <label for="suburb">Suburb/Town</label>
         <input type="text" name="suburb" id="suburb" maxlength="20"><br>
@@ -80,33 +85,36 @@
         <input type="email" name="email" id="email">
 
         <label for="phone_num">Phone number: </label>
-        <input type="tel" name="phone_num" id="phone_num" pattern="(\(0[1-9]\) ?\d{4} \d{4})|(04\d{2} \d{3} \d{3})" required>
+        <input type="tel" name="phone_num" id="phone_num" pattern="(\(0[1-9]\) ?\d{4} \d{4})|(04\d{2} \d{3} \d{3})" required><br><br>
+        </fieldset>
+    </div>
 
-        <fieldset>
-            <legend>Please select your skills: </legend>
-            <div>
+        <fieldset class="fieldchange">
+            <legend>Please select your skills: </legend><br>
+            <div class="checks">
                 <input type="checkbox" id="communication" name="communication" checked />
                 <label for="communication">communication</label>
               </div>
 
-            <div>
+            <div class="checks">
                 <input type="checkbox" id="Teamwork" name="Teamwork" checked />
                 <label for="Teamwork">Teamwork</label>
             </div>
 
-            <div>
+            <div class="checks">
                 <input type="checkbox" id="problem_solving" name="problem_solving" checked />
                 <label for="problem_solving">problem_solving</label>
             </div>
-            
-            <div>
-                <label for="other">Others</label>
+            <br>
+            <div class="checks">
+                <label for="other">Others</label><br>
                 <textarea id="Others" name="Others" rows="5" cols="33">Please enter your other skills</textarea>
             </div>
               
         </fieldset>
-
-        <button type="submit">Apply</button>
+        <button class="buttonsize" type="submit">Apply</button>
+    </fieldset>
+        
     </form>
 </body>
 </html>
