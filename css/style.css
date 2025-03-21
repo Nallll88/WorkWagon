@@ -1,6 +1,6 @@
 /*font whole web*/
 * {font-family: calabri, sans-serif;}
-* {background-color: #d0d6da;}
+body {background-color: #d0d6da;}
 /*menu css no need change*/
 body, html {margin: 0; padding: 0;}
 
@@ -36,11 +36,59 @@ h1,h2 {color:#232f34;}
 #head {font-size: 48px;}
 #head {text-align: center;}
 #heads {text-align: center;}
+#headss {text-align: center;}
+#h {text-align: center;}
 
+/* information css borader*/
+.card {background-color: transparent;
+    border: 1px solid #000;
+    padding: 10px;
+    margin:20px auto;
+    max-width: 400px;}
+     
+.card dt {margin: 5px 0;
+font-size: 1.1em;}
 
+figure {display: flex;
+    align-items: center;
+    justify-content: center;}
 
+/* timetable */
+    #tb {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    #tb th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ffffff;
+    }
+    #tb tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    #tb th {
+        background-color: #344955;
+        color: #f9aa33;
+    }
 
- 
+/*email button*/
+.btn {text-align: center; }
+.btn button {font-size: 16px;}
+      
+.button {display: inline-block;
+        text-decoration: none;
+        color: #232f34;
+        }   
 
+/*Meet our team backdorp*/
+#headss {background-color: #344955; 
+        color:#f9aa33;
+        text-align: center; 
+        width: auto; 
+        height: 50px; 
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
 
 
