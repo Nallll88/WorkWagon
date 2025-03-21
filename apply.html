@@ -28,8 +28,21 @@
 
     <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
 
+
     <fieldset>
         <legend>Start Here</legend><br>
+
+
+    <fieldset> 
+        <label for="job_ref">Job reference number: </label>
+
+
+    <form action="https://mercury.swin.edu.au/it000000/formtest.php" id="ApplyForm" method="post"><br>
+
+        <label class="input-box" for="job_ref">Job reference number: </label>
+
+        <input type="text" name="job_ref" id="job_ref" maxlength="5" minlength="5" pattern="[A-Za-z0-9]{5}" required><br>
+
 
         <label for="job_ref">Job reference number: </label>
         <input type="text" name="job_ref" id="job_ref" maxlength="5" minlength="5" pattern="[A-Za-z0-9]{5}" required>
@@ -112,9 +125,18 @@
             </div>
               
         </fieldset>
+
         <button class="buttonsize" type="submit">Apply</button>
     </fieldset>
         
+
+
+        <button type="submit">Apply</button>
+
+        
+    </fieldset>
+
+
     </form>
 </body>
 </html>
