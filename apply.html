@@ -8,31 +8,47 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="jobs.html">Jobs</a>
-        <a href="apply.html">Apply</a>
-        <a href="enhancements.html">Enhancements</a>
-    </nav>
+    <header>
+        <label class="logo" >WorkWagon</label>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="enhancements.html">Enhancements</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#">Contact</a>
+    </header>
+
+    
     <h1>Job Application</h1>
     <p>Form to apply for jobs goes here.</p>
+
     <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
 
     <fieldset> 
         <label for="job_ref">Job reference number: </label>
+
+
+    <form action="https://mercury.swin.edu.au/it000000/formtest.php" id="ApplyForm" method="post"><br>
+
+        <label class="input-box" for="job_ref">Job reference number: </label>
+
         <input type="text" name="job_ref" id="job_ref" maxlength="5" minlength="5" pattern="[A-Za-z0-9]{5}" required><br>
 
-        <label for="first_name">First name</label>
+        <label class="input-box" for="first_name">First name</label>
         <input type="text" name="first_name" id="first_name" pattern="[A-Za-z0-9]{5}" minlength="0" maxlength="20" required>
 
 
-        <label for="last_name">Last name</label>
+        <label class="input-box" for="last_name">Last name</label>
         <input type="text" name="last_name" id="last_name" pattern="[A-Za-z0-9]{5}" minlength="0" maxlength="20" required><br>
 
-        <label for="birth">Date of Birth</label>
-        <input type="date" name="birth" id="birth">
+        <label class="input-box" for="birth">Date of Birth</label>
+        <input type="date" name="birth" id="birth"> <br><br>
 
+        
         <fieldset>
             <legend>Please select your gender</legend>
             <input type="radio" id = "male" name="gender_picked" value="male">
@@ -98,8 +114,11 @@
         </fieldset>
 
         <button type="submit">Apply</button>
+
         
     </fieldset>
+
+
     </form>
 </body>
 </html>
