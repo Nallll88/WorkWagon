@@ -1,35 +1,165 @@
-/*font whole web*/
-* {font-family: calabri, sans-serif;}
-body {background-color: #d0d6da;}
-/*menu css no need change*/
-body, html {margin: 0; padding: 0;}
+  
+/* Navigation Bar*/
 
-nav {background-color: #344955; 
-    text-align: center; 
-    width: auto; 
-    height: 50px; 
-    padding: 10px 0;
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}  
+
+.boldref {
+  color: black;
+}
+
+body{
+  background-color: rgb(52, 115, 154);
+}
+
+
+  header {
     display: flex;
-    align-items: right;
-    justify-content: right;
-}
-nav a {font-size: 20px; 
-    background-color:#344955; 
-    color: #f9aa33; 
-    margin: 0 8px; 
-    text-decoration: none; 
-    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
 
- }
-nav a:hover{background-color: #232f34;
-    border-radius: 1px;
+  }
+  
+  .logo {
+    cursor: pointer;
+    font-size: 35px; font-weight: 600; color: aliceblue; background-color: #24252a;
+  }
+  
+  .nav__links a, .cta, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color: #24252a;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+    
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+    background-color: #24252a;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
+  .cta {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+
+  #ApplyForm {
+    background-color: rgb(52, 115, 154);
+  }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Form Style*/
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+fieldset {
+  margin: 2em 0;
+  padding: 1 em 2 em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 200px;
+  
+
 }
-nav a:active{color: #976924 !important;
+
+legend {
+  font-size: 1.25em;
+  padding: 0 .25em;
+  color: black; 
+  
+}
+
+/*label*/
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+.checks label {
+  margin-top: 0;
+}
+
+label:first-of-type{
+  margin-top: 0;
+}
+
+/*input*/
+
+input {
+  padding: .5em;
+  border: solid 1px black;
+
+}
+
+input[type="email"], input[type="text"]{
+  width: 15em;
+}
+
+textarea{
+  min-height: 8em;
+  min-width: 100%;
+  padding: .5em;
+  border: solid 1px black;
+}
+
+/**/
+
+.checks {
+  margin-bottom: 1em;
+}
+
+.checks p {
+  margin-bottom: 0;
+}
+
+input[type="checkbox"] + label , input[type="radio"] + label {
+  display: inline-block;
+  padding-top: 0;
+  margin-top: 0;
+  
+}
+
+input[type="radio"]{
+  margin-left: 1.5em;
+  margin-right: 0;
+}
+
+input[type="radio"]:first-of-type{
+  margin-left: 0;
 }
 
 
-/* all h1 and h2 use this color*/
-h1,h2 {color:#232f34;}
 
 
 /* about css page*/
@@ -91,4 +221,126 @@ figure {display: flex;
         align-items: center;
         justify-content: center;}
 
+.fieldchange {
+  margin-left: 0;
+  
+}
+
+@media screen and (min-width: 430px){
+  legend {
+    font-size: 1.75em; 
+  }
+}
+
+fieldset {
+  width: 50%;
+  min-width: 320px;
+  margin: auto;
+  border-color: black;
+
+  
+}
+
+.checks label {
+  display: inline-block;
+  padding-top: .5em;
+  margin-top: 0;
+  margin-right: .5em;
+
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*Jobs Style*/
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.jobs-container {
+  width: auto;
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start;       
+  background-color: rgb(52, 115, 154);     
+  padding: 20px;
+  flex-wrap: wrap;
+  
+}
+
+
+
+.job-listing ul, .job-listing ol {
+  list-style-position: inside;
+  margin: 0;
+  padding: 1em;
+}
+
+.job-listing h2, .job-listing h3{
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  line-height: 1.2;
+  border: none;
+}
+
+.job-listing p {
+  margin: 0 0 1em 0;        
+  line-height: 1.5;
+  border: none;
+}
+
+.job-listing ul {
+  list-style-position: outside; 
+  margin: 0 0 1em 1.5em;     
+  line-height: 1.5;
+  border: none;
+}
+
+
+.job-listing {
+  width: 40%;             
+  background-color: rgb(30, 72, 99); 
+  color: white;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin: 1em 0;   
+  border-radius: 1em ;
+  border: none;
+  
+}
+
+
+.summaryrole {
+  border:none;
+  margin-top: 0.5em;
+}
+
+.titlejob {
+  text-align: center;
+  margin: 20px 0;
+  background-color: rgb(52, 115, 154);
+}
+
+ol li {
+  margin-bottom: 0.75em;  
+  line-height: 1.5;       
+}
+
+
+footer {
+  background-color: rgb(52, 115, 154);  
+  color: #ffffff;             
+  text-align: center;         
+  padding: 1em; 
+}
+
+.emailink {
+  background-color: rgb(52, 115, 154);
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
