@@ -261,31 +261,6 @@ figure {display: flex;
 }
 
 
-/*
-@media screen and (min-width: 430px){
-  legend {
-    font-size: 1.75em; 
-  }
-}
-
-fieldset {
-  width: 50%;
-  min-width: 320px;
-  margin: auto;
-  border-color: black;
-
-  
-}
-
-.checks label {
-  display: inline-block;
-  padding-top: .5em;
-  margin-top: 0;
-  margin-right: .5em;
-
-}
-*/
-
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /*Jobs Style*/
