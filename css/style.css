@@ -160,7 +160,9 @@ input[type="radio"]:first-of-type{
 }
 
 
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
+/*about*/
 
 /* about css page*/
 #head {font-size: 48px;}
@@ -170,7 +172,8 @@ input[type="radio"]:first-of-type{
 #h {text-align: center;}
 
 /* information css borader*/
-.card {background-color: transparent;
+.card {background-color: #232f34;
+    color:#edf0f1;
     border: 1px solid #000;
     padding: 10px;
     margin:20px auto;
@@ -194,25 +197,25 @@ figure {display: flex;
         border-bottom: 1px solid #ffffff;
     }
     #tb tr:nth-child(even) {
-        background-color: #f9f9f9;
+        background-color: whitesmoke;
     }
     #tb th {
-        background-color: #344955;
-        color: #f9aa33;
+        background-color: #232f34;
+        color: white;
     }
 
 /*email button*/
 .btn {text-align: center; }
-.btn button {font-size: 16px;}
+.btn button {font-size: 17px;}
       
 .button {display: inline-block;
         text-decoration: none;
-        color: #232f34;
+        color: whitesmoke;
         }   
 
 /*Meet our team backdorp*/
-#headss {background-color: #344955; 
-        color:#f9aa33;
+#headss {background-color: #232f34; 
+        color:whitesmoke;
         text-align: center; 
         width: auto; 
         height: 50px; 
@@ -220,6 +223,10 @@ figure {display: flex;
         display: flex;
         align-items: center;
         justify-content: center;}
+
+.bg {background-color: transparent;
+  color: black;
+}
 
 .fieldchange {
   margin-left: 0;
