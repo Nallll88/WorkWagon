@@ -267,3 +267,87 @@ figure {display: flex;
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+
+.jobs-container {
+    width: auto;
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;       
+    background-color: rgb(52, 115, 154);     
+    padding: 20px;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+  
+  .job-listing ul, .job-listing ol {
+    list-style-position: inside;
+    margin: 0;
+    padding: 1em;
+  }
+  
+  .job-listing h2, .job-listing h3{
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    line-height: 1.2;
+    border: none;
+  }
+  
+  .job-listing p {
+    margin: 0 0 1em 0;        
+    line-height: 1.5;
+    border: none;
+  }
+  
+  .job-listing ul {
+    list-style-position: outside; 
+    margin: 0 0 1em 1.5em;     
+    line-height: 1.5;
+    border: none;
+  }
+  
+  
+  .job-listing {
+    width: 40%;             
+    background-color: rgb(30, 72, 99); 
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin: 1em 0;   
+    border-radius: 1em ;
+    border: none;
+    
+  }
+  
+  
+  .summaryrole {
+    border:none;
+    margin-top: 0.5em;
+  }
+  
+  .titlejob {
+    text-align: center;
+    margin: 20px 0;
+    background-color: rgb(52, 115, 154);
+  }
+  
+  ol li {
+    margin-bottom: 0.75em;  
+    line-height: 1.5;       
+  }
+  
+  
+  footer {
+    background-color: rgb(52, 115, 154);  
+    color: #ffffff;             
+    text-align: center;         
+    padding: 1em; 
+  }
+  
+  .emailink {
+    background-color: rgb(52, 115, 154);
+  }
+  
