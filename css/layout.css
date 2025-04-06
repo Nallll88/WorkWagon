@@ -1,0 +1,25 @@
+* {font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;}
+
+body{ background-color: #FAFDF3;}
+
+.jobs-container {  
+    background-color: #FAFDF3;     
+  }
+
+.titlejob { 
+    background-color: #FAFDF3;
+}
+
+footer{
+    background-color: #FAFDF3;
+    color: black;
+}
+
+.emailink {
+    background-color:#FAFDF3 ;
+    color: black;
+  }
+
+.ten h2 {
+    font-size:34px; font-weight:500; text-transform:uppercase;
+}

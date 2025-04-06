@@ -288,7 +288,7 @@ figure {display: flex;
   }
   
   .job-listing h2, .job-listing h3{
-    color: black;
+    color: rgb(0, 0, 0);
     margin-top: 0;
     margin-bottom: 0.3em;
     line-height: 1.2;
@@ -311,7 +311,7 @@ figure {display: flex;
   
   .job-listing {
     width: 40%;             
-    background-color: rgb(30, 72, 99); 
+    background-color: rgb(90, 111, 124); 
     color: white;
     box-sizing: border-box;
     margin-bottom: 20px;
