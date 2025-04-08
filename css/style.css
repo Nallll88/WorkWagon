@@ -3,6 +3,10 @@
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+
+* {font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -183,6 +187,11 @@ button:hover {
 
 .emailSection input[type="tel"],.emailSection input[type="email"] {
   height: 50%;}
+
+
+
+
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 /*about*/
