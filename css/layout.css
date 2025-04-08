@@ -29,7 +29,7 @@ footer{
 
 .jobhero {
     width: 100%;
-    height: 225px;
+    height: 250px;
     overflow: hidden;
   }
   
@@ -43,8 +43,9 @@ footer{
 
 .indexhero {
   width: 100%;
-  height: 350px; 
+  height: 375px; 
   overflow: hidden;
+  
 }
 
 .indexhero img {
@@ -139,3 +140,5 @@ footer{
   object-fit: cover;
   margin-left: 60px;
 }
+
+

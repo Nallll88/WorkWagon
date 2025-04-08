@@ -76,3 +76,20 @@ figure {display: flex;
   
 
 }
+
+
+
+
+
+
+.abouthero {
+    width: 100%;
+    height: 300px; 
+    overflow: hidden;
+  }
+  
+.abouthero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
