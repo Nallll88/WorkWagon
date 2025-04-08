@@ -41,25 +41,25 @@ figure {display: flex;
         border-bottom: 1px solid #24252a;
     }
     #tb tr:nth-child(even) {
-        background-color: whitesmoke;
+        background-color: #FAFDF3;
     }
     #tb th {
         background-color: #24252a;
-        color: white;
+        color: #FAFDF3;
     }
 
 /*email button*/
 .btn {text-align: center; }
-.btn button {font-size: 17px;}
+.btn button {font-size: 15px;}
       
 .button {display: inline-block;
         text-decoration: none;
-        color: whitesmoke;
+        color: #FAFDF3;
         }   
 
 /*Meet our team backdorp*/
 #headss {background-color: #24252a; 
-        color:whitesmoke;
+        color:#FAFDF3;
         text-align: center; 
         width: auto; 
         height: 50px; 
