@@ -8,8 +8,15 @@ body{ background-color: #FAFDF3;}
 
 /*about*/
 
+
+#heads {margin-bottom:10px ;}
+#h {margin-top: 5px;}
+
+
 /* about css page*/
-#head {font-size: 48px;}
+#head {font-size: 48px;
+    margin-top: 5px;
+}
 #head {text-align: center;}
 #heads {text-align: center;}
 #headss {text-align: center;}
@@ -23,7 +30,7 @@ body{ background-color: #FAFDF3;}
     margin:20px auto;
     max-width: 400px;
     background: #FAFDF3;
-    box-shadow: 0 12px 24px rgb(0, 0, 0, 0.15);}
+    }
      
 .card dt {margin: 5px 0;
 font-size: 1.1em;}
@@ -64,8 +71,9 @@ figure {display: flex;
            
 .btn button {font-size: 17px;
 padding:8px 10px;
-background-color: #000;
-border-radius: 4px;
+background-color: #24252a;
+margin-top: 5px;
+border-radius: 5px;
 font-weight: bold;
 cursor: pointer;
 box-shadow: 0 12px 24px rgb(0, 0, 0, 0.15);
