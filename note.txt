@@ -1,4 +1,4 @@
-
+job
 list 
 
 5 alphanumeric characters
@@ -14,6 +14,13 @@ requried qualifications skill eg, bachalor degrees
 
 
 
+
+
+enhancements 
+
+- resposive resize?
+- make it more lively?
+- hover 
 
 
 
