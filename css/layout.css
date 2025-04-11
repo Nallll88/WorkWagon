@@ -142,3 +142,9 @@ footer{
 }
 
 
+
+
+.styleIntro {
+  display: flex;
+  justify-content: center;
+}
