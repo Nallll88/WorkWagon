@@ -6,14 +6,14 @@
 }
 
 body {
-  background-color: #FAFDF3;
+  background-color: #ebf4f5;
 }
 
 .jobs-container,
 .titlejob,
 footer,
 .emailink {
-  background-color: #FAFDF3;
+  background-color: #ebf4f5;
 }
 
 footer {
@@ -69,12 +69,12 @@ footer {
 /* Welcome Section */
 .welcome {
   grid-area: welcome;
-  color: white;
-  background: #FAFDF3;
+  color: #ebf4f5;
+  background: #ebf4f5;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 0 0;
   margin-bottom: 10px;
-  border: 1px solid #FAFDF3;
+  border: 1px solid #ebf4f5;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,7 +109,7 @@ footer {
 
 .company_intro{
 
-  background-color: #FAFDF3;
+  background-color: #b5c6e0;
   padding: 20px;
   margin: 10px;
   display: flex;
@@ -128,7 +128,7 @@ footer {
 
 .company_details,
 .company_roadmap {
-  background-color: #FAFDF3;
+  background-color: #b5c6e0;
   padding: 20px;
   margin: 10px;
   display: flex;
@@ -173,7 +173,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background: #FAFDF3;
+  background: #ebf4f5;
   padding: 20px;
 }
 
@@ -189,7 +189,7 @@ footer {
   object-fit: cover;
   margin-left: 60px;
   border-radius: 20px;
-  border: 5px solid lightgrey;
+  border: 5px solid #b5c6e0;
 }
 
 /* Success Stories */
@@ -207,7 +207,7 @@ footer {
 .mini_box1 {
   margin: 5px;
   border-radius: 20px;
-  background-color: #E1E5D7;
+  background-color: #b5c6e0;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 90%;
@@ -226,7 +226,7 @@ footer {
   height: 250px;
   text-align: center;
   margin-left: 10%;
-  background-color: #FAFDF3;
+  background-color: #ebf4f5;
   line-height: 1.4;
   border-radius: 20px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
@@ -238,7 +238,7 @@ footer {
   width: 80%;
   height: 250px;
   border-radius: 30px;
-  border: 5px solid #C2C8B2;
+  border: 5px solid #ebf4f5;
   transition: transform .2s;
 }
 
