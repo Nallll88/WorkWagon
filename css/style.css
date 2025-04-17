@@ -353,14 +353,68 @@ figure {display: flex;
   }
   
   
-  footer {
-    background-color: rgb(52, 115, 154);  
-    color: #ffffff;             
-    text-align: center;         
-    padding: 1em; 
-  }
+
   
   .emailink {
     background-color: rgb(52, 115, 154);
   }
   
+
+
+  
+.site-footer {
+  background: #24252a;
+  color: #f0f0f0;
+  padding: 20px 10px 10px;
+  font-size: 14px;
+  border-top: 4px solid #698cbf;
+  margin-top: 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin: 5px;
+}
+
+.footer-column h3, .footer-column h4 {
+  color: #9bb2e5;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+  color: #9bb2e5;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  margin-top: 30px;
+}
+
+
+

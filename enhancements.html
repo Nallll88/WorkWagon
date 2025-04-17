@@ -52,44 +52,45 @@
       <p>
         <a href="index.html#hero-section">View the Hero Animation in Action</a>
       </p>
-    </div>
-
-    <div class = "enchancement#2">
-      <h3>Rainbow effect in home page</h3>
-      <p>To acheive this effect, we used background: linear-gradient(90deg, #ffeb3b, #00e676, #40c4ff, #7c4dff); and   -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; to apply the background only to text as linear gradient doesnt work on color. Further usafe of animation element, allow us to create a smooth transition for the colors.</p>
-        <p>Refrence</p>
-        <p><a href="https://www.youtube.com/watch?v=Hvrl93x-P3s">Ideas on how to create rainbow animated text</a></p>
-    </div>
-
-    
-    <div class = "enchancement#3">
-      <h3>Hover effect on success story </h3>
-      <p>I used:
-        -ms-transform: scale(1.5); /* IE 9 */
-        -webkit-transform: scale(1.5); /* Safari 3-8 */
-        transform: scale(1.5);
-        <br>
-        To transform the scale of the image upon hovering.
-      </p>
-      <p>Refrences</p>
-      <p><a href = "https://www.w3schools.com/howto/howto_css_zoom_hover.asp">View here on W3School</a></p>
-    </div>
-
-    <div class = "enchancement#4">
-      <h3>Number and Word detection in form</h3>
+    </div><br>
+    <section class="enhancement">
+      <h2>Enhancement #2: Rainbow Text Effect</h2>
       <p>
-        .formtext input[type="text"]:invalid,.formtext input[type="email"]:invalid {
-          border: 1px solid #D55C5F;
-        }
-        
-        .formtext input[type="text"]:valid,.formtext input[type="email"]:valid {
-          border: 1px solid lightgreen;
-        }
-        Through usage of input[type="text"] pseudo code, the condition that is set for the type would change color if the user enter incorrect information.
+        On the homepage, a rainbow text animation was created using
+        <code>linear-gradient</code> and <code>-webkit-background-clip: text</code> to apply the gradient
+        to the text itself. The gradient is animated using keyframes to cycle smoothly.
       </p>
-    </div>
-    
+      <pre><code>
+background: linear-gradient(90deg, #ffeb3b, #00e676, #40c4ff, #7c4dff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+      </code></pre>
+      <p>
+        <strong>Reference:</strong>
+        <a href="https://www.youtube.com/watch?v=Hvrl93x-P3s" target="_blank">YouTube - Rainbow Animated Text</a>
+      </p><br>
+    </section>
+
+    <!-- Enhancement 3 -->
+    <section class="enhancement">
+      <h2>Enhancement #3: Image Hover Zoom on Success Stories</h2>
+      <p>
+        A smooth zoom effect was applied to images in the success story section using transform scaling:
+      </p>
+      <pre><code>
+transform: scale(1.2);
+transition: transform 0.3s ease;
+      </code></pre>
+      <p>
+        This adds interactivity and highlights the story cards when hovered over.
+      </p>
+      <p>
+        <strong>Reference:</strong>
+        <a href="https://www.w3schools.com/howto/howto_css_zoom_hover.asp" target="_blank">
+          W3Schools - Zoom on Hover
+        </a>
+      </p>
+    </section>
     
 </body>
 </html>
