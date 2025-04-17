@@ -15,22 +15,7 @@
   }
   
 
-  @keyframes pulseCTA {
-    0%, 100% {
-      transform: scale(1);
-      background-color: rgba(0, 136, 169, 1);
-    }
-    50% {
-      transform: scale(1.05);
-      background-color: rgba(0, 136, 169, 0.8);
-    }
-  }
-  
- 
-  .cta {
-    animation: pulseCTA 2s infinite;
-  }
-  
+
 
   @keyframes fade{
     0%{
