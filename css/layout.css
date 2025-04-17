@@ -7,7 +7,10 @@
 
 body {
   background-color: #ebf4f5;
+  
 }
+
+
 
 .jobs-container,
 .titlejob,
@@ -69,7 +72,7 @@ footer {
 /* Welcome Section */
 .welcome {
   grid-area: welcome;
-  color: #ebf4f5;
+  color: #EBF4F5;
   background: #ebf4f5;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 0 0;
@@ -245,3 +248,6 @@ footer {
 .mini_box1 img:hover {
   transform: scale(1.1);
 }
+
+
+.sucess {color: black;}
