@@ -1,64 +1,62 @@
 
-/* - Sonal Chhen*/
+/* - Sonal Chhen CSS */
 
-* {font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;}
-
-body{ background-color: #FAFDF3;}
-
-.jobs-container {  
-    background-color: #FAFDF3;     
-  }
-
-.titlejob { 
-    background-color: #FAFDF3;
+* {
+  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
-footer{
-    background-color: #FAFDF3;
-    color: black;
+body {
+  background-color: #FAFDF3;
+}
+
+.jobs-container,
+.titlejob,
+footer,
+.emailink {
+  background-color: #FAFDF3;
+}
+
+footer {
+  color: black;
 }
 
 .emailink {
-    background-color:#FAFDF3 ;
-    color: black;
-  }
+  color: black;
+}
 
 .ten h2 {
-    font-size:34px; font-weight:500; text-transform:uppercase;
+  font-size: 34px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* Hero Sections */
+.jobhero, .indexhero {
+  width: 100%;
+  overflow: hidden;
 }
 
 .jobhero {
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
-  }
-  
-.jobhero img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
+  height: 250px;
 }
-  
-/*>>>>>>>>>>>>>>>>>>>>>*/
 
 .indexhero {
-  width: 100%;
-  height: 375px; 
-  overflow: hidden;
-  
+  height: 375px;
 }
 
+.jobhero img,
 .indexhero img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
+/* Grid Layout */
 .content_grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: auto auto auto auto; 
-  grid-template-areas: 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
     "welcome welcome"
     "company_intro picture1"
     "company_details picture2"
@@ -68,17 +66,17 @@ footer{
   width: 100%;
 }
 
-
+/* Welcome Section */
 .welcome {
   grid-area: welcome;
   color: white;
-  background: red;
+  background: #FAFDF3;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 20px;
-  grid-template-columns: 1/3;
-  border: 1px solid red;
-  flex-direction: column;
+  padding: 0 0;
+  margin-bottom: 10px;
+  border: 1px solid #FAFDF3;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -95,7 +93,7 @@ footer{
 
 .thirdMainText {
   animation: rainbow 5s linear infinite;
-  background: linear-gradient(90deg, #ffeb3b, #00e676, #40c4ff, #7c4dff);;
+  background: linear-gradient(90deg, #ffeb3b, #00e676, #40c4ff, #7c4dff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200%;
@@ -103,113 +101,98 @@ footer{
 }
 
 @keyframes rainbow {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 100%;
-  }
+  0% { background-position: 0%; }
+  100% { background-position: 100%; }
 }
 
-.homePic {
-  border-radius: 20px;
-  border: 5px solid black;
-}
+/* Shared Box Styling */
 
+.company_intro{
 
-.company_intro, .company_roadmap, .company_details {
-  grid-area: company_intro;
-  background: #FAFDF3;
-  padding:  5px 5px;
-  margin: 0px;
+  background-color: #FAFDF3;
+  padding: 20px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: white;
+  justify-content: flex-start;
+  align-items: flex-start;
   line-height: 1.4;
   border-radius: 20px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  height: 70%;
-  align-self: center;
   width: 100%;
+  text-align: left;
+  height: 80%;
+
 }
 
-.company_intro, .company_roadmap, .company_details  > h2 {
+
+.company_details,
+.company_roadmap {
+  background-color: #FAFDF3;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 1.4;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: left;
+  height: 60%;
+}
+
+
+.company_intro { grid-area: company_intro; }
+.company_details { grid-area: company_details; }
+.company_roadmap { grid-area: company_roadmap; }
+
+.company_intro > h2,
+.company_details > h2,
+.company_roadmap > h2 {
   margin: 0;
   padding: 0;
   text-align: center;
+  width: 100%;
 }
 
-.company_intro > p {
-  margin: 0;
-  padding: 0;
+/* List Styling */
+.company_details ul,
+.company_roadmap ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
 
-.picture1 {
-  grid-area: picture1;
-  background: #FAFDF3;
-  padding: 20px;
-}
-.picture1 img {
-  width: 500px;
-  height: auto;
-  object-fit: cover;
-}
-
-.company_details {
-  grid-area: company_details;
-  background: #FAFDF3;
-  padding: 20px;
-}
-
-.picture2 {
-  grid-area: picture2;
-  background: #FAFDF3;
-  padding: 20px;
-}
-.picture2 img {
-  width: 500px;
-  height: auto;
-  object-fit: cover;
-}
-
-.company_roadmap {
-  grid-area: company_roadmap;
-  background: #FAFDF3;
-  padding: 20px;
-}
-
-.picture3 {
-  grid-area: picture3;
-  background: #FAFDF3;
-  padding: 20px;
-}
-.picture3 img {
-  width: 500px;
-  height: auto;
-  object-fit: cover;
-}
-
+/* Image Sections */
 .picture1, .picture2, .picture3 {
   display: flex;
-  justify-content: center; 
-  align-items: center;  
+  justify-content: center;
+  align-items: flex-start;
   background: #FAFDF3;
   padding: 20px;
 }
 
-.company_intro {
-  background-color:#FAFDF3;
-}
+.picture1 { grid-area: picture1; }
+.picture2 { grid-area: picture2; }
+.picture3 { grid-area: picture3; }
 
 .picture1 img,
 .picture2 img,
 .picture3 img {
   width: 500px;
   height: auto;
+  object-fit: cover;
   margin-left: 60px;
+  border-radius: 20px;
+  border: 5px solid lightgrey;
 }
 
+/* Success Stories */
 .successStory {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -218,7 +201,7 @@ footer{
 .mini_box {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .mini_box1 {
@@ -229,18 +212,18 @@ footer{
   padding-bottom: 20px;
   width: 90%;
   margin-left: 8%;
-
 }
 
 .mini_box1 > h2 {
   color: white;
+  text-align: center;
   margin-bottom: 5px;
 }
 
 .mini_box1 > p {
   padding: 5px;
   width: 80%;
-  height: 250px; 
+  height: 250px;
   text-align: center;
   margin-left: 10%;
   background-color: #FAFDF3;
@@ -251,24 +234,14 @@ footer{
 
 .mini_box1 > img {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
   width: 80%;
-  height: 250px; 
-  margin-bottom: 10px;
+  height: 250px;
   border-radius: 30px;
   border: 5px solid #C2C8B2;
-}
-
-.mini_box1 > h2 {
-  text-align: center;
-}
-
-.mini_box1  img {
   transition: transform .2s;
 }
 
 .mini_box1 img:hover {
   transform: scale(1.1);
-  -webkit-transform: scale(1.1); 
-  transform: scale(1.2); 
 }
