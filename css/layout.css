@@ -192,10 +192,14 @@ footer{
 
 .picture1, .picture2, .picture3 {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
+  justify-content: center; 
+  align-items: center;  
   background: #FAFDF3;
   padding: 20px;
+}
+
+.company_intro {
+  background-color:#FAFDF3;
 }
 
 .picture1 img,
@@ -203,7 +207,68 @@ footer{
 .picture3 img {
   width: 500px;
   height: auto;
-  object-fit: cover;
   margin-left: 60px;
 }
 
+.successStory {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.mini_box {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.mini_box1 {
+  margin: 5px;
+  border-radius: 20px;
+  background-color: #E1E5D7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+  margin-left: 8%;
+
+}
+
+.mini_box1 > h2 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.mini_box1 > p {
+  padding: 5px;
+  width: 80%;
+  height: 250px; 
+  text-align: center;
+  margin-left: 10%;
+  background-color: #FAFDF3;
+  line-height: 1.4;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.mini_box1 > img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 250px; 
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: 5px solid #C2C8B2;
+}
+
+.mini_box1 > h2 {
+  text-align: center;
+}
+
+.mini_box1  img {
+  transition: transform .2s;
+}
+
+.mini_box1 img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.2); 
+}
