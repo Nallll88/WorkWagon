@@ -31,18 +31,3 @@
     animation: pulseCTA 2s infinite;
   }
   
-
-  @keyframes fade{
-    0%{
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.fade{
-    opacity: 0;
-    animation: fade 0.8s ease forwards;
-}
