@@ -40,14 +40,25 @@ footer {
 }
 
 .jobhero {
-  height: 250px;
+  height: 350px;
 }
 
 .indexhero {
   height: 375px;
 }
 
-.jobhero img,
+
+.jobhero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top; 
+  object-position: center 30%;/* try 'center 30%' or 'center 20%' if needed */
+}
+
+
+
+
 .indexhero img {
   width: 100%;
   height: 100%;
