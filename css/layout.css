@@ -33,7 +33,7 @@ footer {
   text-transform: uppercase;
 }
 
-/* Hero Sections */
+/* Hero Sections - sonal */
 .jobhero, .indexhero {
   width: 100%;
   overflow: hidden;
@@ -66,7 +66,7 @@ footer {
   object-position: center 70%;
 }
 
-/* Grid Layout */
+/* Grid Layout - sonal */
 .content_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -81,7 +81,11 @@ footer {
   width: 100%;
 }
 
-/* Welcome Section */
+
+
+
+
+/* Welcome Section -  PHANUNT NEANG*/
 .welcome {
   grid-area: welcome;
   color: #EBF4F5;
@@ -140,7 +144,7 @@ footer {
   100% { background-position: 100%; }
 }
 
-/* Shared Box Styling */
+/* Shared Box Styling - sonal*/
 
 .company_intro{
   grid-area: company_intro;
@@ -226,7 +230,7 @@ footer {
   line-height: 1.6;
 }
 
-/* Image Sections */
+/* Image Sections - sonal */
 .picture1, .picture2, .picture3 {
   display: flex;
   justify-content: center;

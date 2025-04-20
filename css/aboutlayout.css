@@ -6,7 +6,7 @@
 
 body{ background-color: #ebf4f5;}
 
-/*about*/
+/*about - SOMSANIT VONGPHOUTHONE*/
 
 
 #heads {margin-bottom:10px ;}
@@ -52,7 +52,7 @@ figure {display: flex;
 
 
 
-/* timetable */
+/* timetable - SOMSANIT VONGPHOUTHONE*/
     #tb {
         width: 100%;
         border-collapse: collapse;
@@ -70,7 +70,7 @@ figure {display: flex;
         color: #FAFDF3;
     }
 
-/*email button*/
+/*email button - SOMSANIT VONGPHOUTHONE */
 .btn {text-align: center; }
 
 .btn button {font-size: 15px;}
